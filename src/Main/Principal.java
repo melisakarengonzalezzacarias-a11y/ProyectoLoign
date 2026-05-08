@@ -12,6 +12,9 @@ public class Principal {
 
 		Scanner lectura = null;
 
+
+		System.out.println("----HOLA MUNDO ---");
+		System.out.println("TIENES UN :" );
 		String usuario;
 		String contraseña;
 		boolean estatus;
@@ -24,6 +27,7 @@ public class Principal {
 		Implementacion imp = new Implementacion();
 
 		do {
+			System.out.println("-----inicio ------");
 			System.out.println("Menu Principal");
 			System.out.println("1 --- Alta");
 			System.out.println("2 --- Mostrar");
