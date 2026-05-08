@@ -19,6 +19,9 @@ public class Principal {
 		String contraseña;
 		boolean estatus;
 
+		float resultado = 0;
+		System.out.println("Tu resultado es: " + resultado * 20);
+		
 		Usuarios user;
 
 		int menuPrin, indice;
